@@ -1,6 +1,6 @@
 const Stack = require("./stack");
 
-function decimalToBase(number) {
+function decimalToBinary(number) {
   const stack = new Stack();
 
   while (number > 0) {
@@ -16,6 +16,6 @@ function decimalToBase(number) {
   return binaryString;
 }
 
-console.log(decimalToBase(255));
-console.log(decimalToBase(132));
-console.log(decimalToBase(123456789));
+console.log(decimalToBinary(255));
+console.log(decimalToBinary(132));
+console.log(decimalToBinary(123456789));
